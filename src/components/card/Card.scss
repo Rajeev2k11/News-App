@@ -1,0 +1,41 @@
+
+  .container-card{
+    
+    padding: 20px;
+   
+    .card{
+        display: flex;
+      
+        flex-direction: column;
+        width: 282px;
+        height: 400px;
+        color: white;
+        border: 1px solid rgb(205, 199, 199);
+        border-radius: 10px;
+        cursor: pointer;
+        color: black;
+        .wrap{
+            padding: 20px;
+            overflow-y: hidden;
+             
+        }
+        .link{
+          text-decoration: none;
+          color: black;
+        }
+        img {
+            width: 282px;
+            height: 100%;
+            object-fit: cover;
+          }
+        .title{
+            font-size: 18px;
+            font-weight: 800;
+        }
+        .desc{
+           
+        }
+        
+    }
+  }
+    
